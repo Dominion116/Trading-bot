@@ -1,0 +1,113 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+>>
+>>
+>>
+endobj
+4 0 obj
+<<
+/Length 600
+>>
+stream
+BT
+/F1 16 Tf
+50 750 Td
+(Trading Bot Update Guide) Tj
+/F1 12 Tf
+50 720 Td
+(This document provides detailed instructions for updating the trading bot.) Tj
+50 700 Td
+(1. Pre-Update Checklist) Tj
+50 680 Td
+(- Backup settings.json and .env files) Tj
+50 660 Td
+(- Stop running bot instance) Tj
+50 640 Td
+(- Check current version) Tj
+50 620 Td
+(2. Updating Dependencies) Tj
+50 600 Td
+(- Edit Cargo.toml for dependency versions) Tj
+50 580 Td
+(- Run: cargo update) Tj
+50 560 Td
+(3. Rebuilding the Bot) Tj
+50 540 Td
+(- Run: cargo clean) Tj
+50 520 Td
+(- Run: cargo build --release) Tj
+50 500 Td
+(4. Updating Bot Code) Tj
+50 480 Td
+(- Modify src/main.rs, src/helpers.rs, src/order_handler.rs) Tj
+50 460 Td
+(5. Updating Configuration) Tj
+50 440 Td
+(- Edit settings.json with new parameters) Tj
+50 420 Td
+(6. Testing) Tj
+50 400 Td
+(- Test in paper trading mode first) Tj
+50 380 Td
+(- Monitor logs for errors) Tj
+50 360 Td
+(7. Rollback Procedure) Tj
+50 340 Td
+(- Restore backups if issues occur) Tj
+50 320 Td
+(- Revert code changes) Tj
+50 300 Td
+(8. Version Management) Tj
+50 280 Td
+(- Update version in Cargo.toml) Tj
+50 260 Td
+(- Document changes in CHANGELOG) Tj
+50 240 Td
+(For detailed HTML version, see temp_update.html) Tj
+ET
+endstream
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000264 00000 n 
+0000000372 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+447
+%%EOF
